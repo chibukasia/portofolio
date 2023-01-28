@@ -33,10 +33,11 @@ function App() {
           <h2 className="text-5xl py-2 text-indigo-500 font-medium">
              { `Dev {Chibukasia}`}
           </h2>
-          <h3 className="text-3xl py-2 text-center text-indigo-500 ">Hi, I'm Nelson Chibukasia</h3>
-          <h3 className="text-3xl py-2">FullStack Software Developers</h3>
+          <h3 className="text-3xl py-2 text-center text-indigo-500 font-sans">Hi, I'm Nelson Chibukasia</h3>
+          <h3 className="text-3xl py-2 font-sans">FullStack Software Developers</h3>
         </div>
-        <div className="relative mx-auto bg-indigo-900 rounded-full w-80 h-80 mb-20 overflow-hidden">
+        
+        <div className="relative mx-auto bg-indigo-900 rounded-full w-80 h-80 mb-20 overflow-hidden hover:animate-spin">
           <img className="object-cover" src={profile} layout="fill" />
         </div>
         
@@ -44,7 +45,7 @@ function App() {
         
         <hr />
         <div className="py-8 ring-1 ring-slate-900/5 shadow-xl">
-          <div className="text-center pt-10  text-indigo-500">
+          <div className="text-center pt-10  text-indigo-500 font-medium">
             <h3 className="text-3xl py-2 underline">Stacks</h3>
           </div>
           <div className="text-5xl flex flex-wrap justify-center gap-16 py-3">
