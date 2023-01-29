@@ -51,7 +51,7 @@ function App() {
 
         <div className="relative mx-auto bg-indigo-900 rounded-full w-80 h-80 mb-20 overflow-hidden hover:animate-spin ">
           <img
-            className="object-cover float-left"
+            className="object-cover"
             src={profile}
             layout="fill"
           />
