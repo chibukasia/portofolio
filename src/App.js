@@ -32,9 +32,6 @@ function App() {
           </li>
         </ul>
 
-        <h2 className="text-2xl">
-          <BsFillMoonStarsFill />
-        </h2>
       </nav>
       <section className="px-10 rounded-lg" id="home">
         <div className="text-center p-10 pt-2">
@@ -58,8 +55,7 @@ function App() {
         </div>
 
         <hr />
-
-        <hr />
+        
         <div className="bg-slate-900 dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
           <div className="text-center pt-10  text-indigo-500 font-medium">
             <h3 className="text-3xl py-2 underline">Stacks</h3>
@@ -92,8 +88,9 @@ function App() {
           </div>
         </div>
       </section>
-      <hr />
+      
       <section className="px-10">
+        <hr />
         <div id="about">
           <About />
         </div>
