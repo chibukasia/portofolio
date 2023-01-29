@@ -3,9 +3,9 @@ import React from "react";
 function About() {
   return (
     <div className='text-center p-10'>
-      <div>
+      <div className="bg-slate-700 text-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
         <h2 className='text-5xl py-2 text-indigo-500 font-medium'>About Me</h2>
-        <p className="text-md py-2 leading-8 text-slate-500 dark:text-slate-400 mt-2 text-sm">
+        <p className="text-md py-2 leading-8 text-white dark:text-white mt-2 text-sm">
           My name is Nelson Chibukasia and I am a software developer with a
           passion for creating innovative and user-friendly digital solutions. I
           have a strong foundation in front-end development, with skills in

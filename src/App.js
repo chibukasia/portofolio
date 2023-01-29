@@ -3,16 +3,16 @@ import "./App.css";
 import profile from "./code.webp";
 import { BsFillMoonStarsFill, BsTwitter, BsLinkedin } from "react-icons/bs";
 import { TbBrandJavascript } from "react-icons/tb";
-import { FaReact, FaPython } from "react-icons/fa";
+import { FaReact, FaPython, FaHtml5 } from "react-icons/fa";
 import { DiDjango, DiRuby } from "react-icons/di";
-import { SiRubyonrails } from "react-icons/si";
+import { SiRubyonrails, SiCss3 } from "react-icons/si";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-white dark:bg-slate-800">
+    <div className="bg-slate-900 dark:bg-slate-800 text-white">
       <nav className="py-10 mb-12 flex justify-between bg-indigo-900 text-white">
         <ul className="flex items-center ml-10">
           <li className="pr-5">
@@ -44,11 +44,17 @@ function App() {
         <hr />
         
         <hr />
-        <div className="py-8 ring-1 ring-slate-900/5 shadow-xl">
+        <div className="bg-slate-900 dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
           <div className="text-center pt-10  text-indigo-500 font-medium">
             <h3 className="text-3xl py-2 underline">Stacks</h3>
           </div>
           <div className="text-5xl flex flex-wrap justify-center gap-16 py-3">
+            <a className=" text-orange-600">
+              <SiCss3/>
+            </a>
+            <a className=" text-orange-600">
+              <FaHtml5/>
+            </a>
             <a className=" text-amber-500">
               <TbBrandJavascript />
             </a>
